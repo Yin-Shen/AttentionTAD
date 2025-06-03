@@ -70,14 +70,6 @@ AttentionTAD consists of:
 - Fully connected layer with 64 neurons
 - Output layer with sigmoid activation for boundary probability
 
-## Performance Comparison
-| Method | Accuracy | AUC | AUPR | Recall |
-|--------|----------|-----|------|--------|
-| AttentionTAD | 88.7% | 0.885 | 0.842 | 90.9% |
-| pTADs | 73.0% | 0.537 | - | - |
-| preciseTAD | 66.6% | 0.535 | - | - |
-| TADBoundaryDetector | 25.5% | 0.629 | - | 21.1% |
-
 ## File Structure
 ```
 AttentionTAD/
