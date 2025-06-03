@@ -74,7 +74,6 @@ AttentionTAD consists of:
 ```
 AttentionTAD/
 ├── README.md
-├── requirements.txt
 ├── tad_boundary_preprocessor.py
 ├── train_tad_model.py
 ├── GM12878_TAD_boundaries.bed
