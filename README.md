@@ -39,7 +39,6 @@ The repository includes TAD boundary BED files for seven cell lines:
 - HCT116_TAD_boundaries.bed  
 - HMEC_TAD_boundaries.bed
 - HUVEC_TAD_boundaries.bed
-- IMR90_TAD_boundaries.bed
 - K562_TAD_boundaries.bed
 - NHEK_TAD_boundaries.bed
 
@@ -80,7 +79,6 @@ AttentionTAD/
 ├── HCT116_TAD_boundaries.bed
 ├── HMEC_TAD_boundaries.bed
 ├── HUVEC_TAD_boundaries.bed
-├── IMR90_TAD_boundaries.bed
 ├── K562_TAD_boundaries.bed
 ├── NHEK_TAD_boundaries.bed
 └── hg19.fa (download separately)
