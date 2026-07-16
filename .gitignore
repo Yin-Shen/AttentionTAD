@@ -1,0 +1,60 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local configuration and logs
+.env
+*.log
+
+# Genomic source data and reference files
+*.bed
+*.bed.gz
+*.bedGraph
+*.bigWig
+*.bw
+*.fa
+*.fasta
+*.fna
+*.2bit
+*.cool
+*.mcool
+*.hic
+
+# Generated arrays, models, and checkpoints
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.keras
+*.pt
+*.pth
+*.ckpt
+
+# Runtime outputs
+/data/
+/datasets/
+/reference_genomes/
+/outputs/
+output/
+output_*/
+*_output/
+model_comparison_results*/
+*_evaluation_results/
+/examples/generated/
+
+# Keep the small synthetic BED example under version control
+!examples/data/
+!examples/data/*.bed
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

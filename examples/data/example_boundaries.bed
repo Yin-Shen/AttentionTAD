@@ -1,0 +1,9 @@
+# Synthetic 10-kb windows for workflow testing only
+chrDemo	20000	30000	example_boundary_01
+chrDemo	60000	70000	example_boundary_02
+chrDemo	100000	110000	example_boundary_03
+chrDemo	140000	150000	example_boundary_04
+chrDemo	180000	190000	example_boundary_05
+chrDemo	220000	230000	example_boundary_06
+chrDemo	260000	270000	example_boundary_07
+chrDemo	300000	310000	example_boundary_08

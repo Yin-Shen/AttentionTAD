@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "attentiontad"
+version = "0.2.0"
+description = "Sequence-based preprocessing and model training for TAD boundary classification"
+readme = "README.md"
+requires-python = ">=3.9,<3.14"
+dependencies = [
+  "numpy>=1.23",
+]
+
+[project.optional-dependencies]
+train = [
+  "tensorflow>=2.12",
+  "matplotlib>=3.6",
+]
+dev = [
+  "pytest>=7",
+]
+
+[project.scripts]
+attentiontad-preprocess = "attentiontad.preprocessing:main"
+attentiontad-train = "attentiontad.training:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
